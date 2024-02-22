@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: my-apps
-        image: httpd
+        image: kajalu/hello-kaniko:1
         ports:
         - containerPort: 80
 
