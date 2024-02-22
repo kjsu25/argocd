@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: my-apps
-        image: kajalu/nginx
+        image: nginx
         ports:
         - containerPort: 80
 
